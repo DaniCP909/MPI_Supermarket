@@ -1,0 +1,5 @@
+mpicc Caja.c Cliente.c Pizarra.c main.c -o main
+
+mpicc cola_prioridad/T*.c  Cliente.c Pizarra.c main.c -o main
+
+mpicc cola_prioridad/TElemento.c cola_prioridad/TCola.c cola_prioridad/TcolaPrioridad.c Cliente.c Pizarra.c main.c -o main
